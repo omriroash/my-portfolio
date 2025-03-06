@@ -1,0 +1,83 @@
+@media screen and (max-width: 600px) {
+ .request-th:nth-child(3) , .request-td:nth-child(3)
+ , .request-th:nth-child(4) , .request-td:nth-child(4)
+ , .request-th:nth-child(6) , .request-td:nth-child(6) 
+ , .request-th:nth-child(7) , .request-td:nth-child(7) {
+    display: none;
+ }
+ .request-table {
+    margin-right: 0 !important;    
+ }
+}
+.request-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #1E2A38;
+    color: white;
+}
+
+.request-th,.request-td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+.request-th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+.request-tr:nth-child(even) {
+    background-color: #2C2C2C;
+}
+
+.request-tr:nth-child(odd) {
+    background-color: #1A1A1A;
+}
+
+.request-table .approve-btn {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.request-table .approve-btn:hover {
+    background-color: #218838;
+}
+
+.request-table .reject-btn {
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.request-table .reject-btn:hover {
+    background-color: #C82333;
+}
+
+.request-table .details-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.request-table .details-btn:hover {
+    background-color: #0056B3;
+}
